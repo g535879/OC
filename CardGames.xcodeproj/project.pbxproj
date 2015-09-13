@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4589D81BA3AB5700582F0C /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4589D71BA3AB5700582F0C /* CardMatchingGame.m */; };
+		ADB644471BA2799200C5E82E /* PlayingCardDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB644461BA2799200C5E82E /* PlayingCardDesk.m */; };
 		ADDB02871BA132B400A22F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDB02861BA132B400A22F16 /* main.m */; };
 		ADDB028A1BA132B400A22F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDB02891BA132B400A22F16 /* AppDelegate.m */; };
 		ADDB028D1BA132B400A22F16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDB028C1BA132B400A22F16 /* ViewController.m */; };
@@ -14,6 +16,9 @@
 		ADDB02921BA132B400A22F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB02911BA132B400A22F16 /* Images.xcassets */; };
 		ADDB02951BA132B500A22F16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADDB02931BA132B500A22F16 /* LaunchScreen.xib */; };
 		ADDB02A11BA132B500A22F16 /* CardGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDB02A01BA132B500A22F16 /* CardGamesTests.m */; };
+		ADE17F321BA1E04F0091338A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE17F311BA1E04F0091338A /* Card.m */; };
+		ADE17F371BA1E4E00091338A /* Desk.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE17F361BA1E4E00091338A /* Desk.m */; };
+		ADE17F3B1BA257D40091338A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE17F3A1BA257D40091338A /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD4589D61BA3AB5700582F0C /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = CardGames/Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		AD4589D71BA3AB5700582F0C /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = CardGames/Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		ADB644451BA2799200C5E82E /* PlayingCardDesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDesk.h; path = CardGames/Model/PlayingCardDesk.h; sourceTree = "<group>"; };
+		ADB644461BA2799200C5E82E /* PlayingCardDesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDesk.m; path = CardGames/Model/PlayingCardDesk.m; sourceTree = "<group>"; };
 		ADDB02811BA132B400A22F16 /* CardGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB02851BA132B400A22F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDB02861BA132B400A22F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,12 @@
 		ADDB029A1BA132B500A22F16 /* CardGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB029F1BA132B500A22F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDB02A01BA132B500A22F16 /* CardGamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGamesTests.m; sourceTree = "<group>"; };
+		ADE17F301BA1E04F0091338A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = CardGames/Model/Card.h; sourceTree = "<group>"; };
+		ADE17F311BA1E04F0091338A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = CardGames/Model/Card.m; sourceTree = "<group>"; };
+		ADE17F351BA1E4E00091338A /* Desk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Desk.h; path = CardGames/Model/Desk.h; sourceTree = "<group>"; };
+		ADE17F361BA1E4E00091338A /* Desk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Desk.m; path = CardGames/Model/Desk.m; sourceTree = "<group>"; };
+		ADE17F391BA257D40091338A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = CardGames/Model/PlayingCard.h; sourceTree = "<group>"; };
+		ADE17F3A1BA257D40091338A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = CardGames/Model/PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		ADDB02781BA132B400A22F16 = {
 			isa = PBXGroup;
 			children = (
+				ADE17F341BA1E1210091338A /* Model */,
 				ADDB02831BA132B400A22F16 /* CardGames */,
 				ADDB029D1BA132B500A22F16 /* CardGamesTests */,
 				ADDB02821BA132B400A22F16 /* Products */,
@@ -81,8 +97,6 @@
 		ADDB02831BA132B400A22F16 /* CardGames */ = {
 			isa = PBXGroup;
 			children = (
-				ADDB02881BA132B400A22F16 /* AppDelegate.h */,
-				ADDB02891BA132B400A22F16 /* AppDelegate.m */,
 				ADDB028B1BA132B400A22F16 /* ViewController.h */,
 				ADDB028C1BA132B400A22F16 /* ViewController.m */,
 				ADDB028E1BA132B400A22F16 /* Main.storyboard */,
@@ -96,6 +110,8 @@
 		ADDB02841BA132B400A22F16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADDB02881BA132B400A22F16 /* AppDelegate.h */,
+				ADDB02891BA132B400A22F16 /* AppDelegate.m */,
 				ADDB02851BA132B400A22F16 /* Info.plist */,
 				ADDB02861BA132B400A22F16 /* main.m */,
 			);
@@ -117,6 +133,23 @@
 				ADDB029F1BA132B500A22F16 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE17F341BA1E1210091338A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADE17F301BA1E04F0091338A /* Card.h */,
+				ADE17F311BA1E04F0091338A /* Card.m */,
+				ADE17F351BA1E4E00091338A /* Desk.h */,
+				ADE17F361BA1E4E00091338A /* Desk.m */,
+				ADE17F391BA257D40091338A /* PlayingCard.h */,
+				ADE17F3A1BA257D40091338A /* PlayingCard.m */,
+				ADB644451BA2799200C5E82E /* PlayingCardDesk.h */,
+				ADB644461BA2799200C5E82E /* PlayingCardDesk.m */,
+				AD4589D61BA3AB5700582F0C /* CardMatchingGame.h */,
+				AD4589D71BA3AB5700582F0C /* CardMatchingGame.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE17F3B1BA257D40091338A /* PlayingCard.m in Sources */,
+				ADB644471BA2799200C5E82E /* PlayingCardDesk.m in Sources */,
+				ADE17F371BA1E4E00091338A /* Desk.m in Sources */,
 				ADDB028D1BA132B400A22F16 /* ViewController.m in Sources */,
+				AD4589D81BA3AB5700582F0C /* CardMatchingGame.m in Sources */,
 				ADDB028A1BA132B400A22F16 /* AppDelegate.m in Sources */,
 				ADDB02871BA132B400A22F16 /* main.m in Sources */,
+				ADE17F321BA1E04F0091338A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +454,7 @@
 				ADDB02A61BA132B500A22F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADDB02A71BA132B500A22F16 /* Build configuration list for PBXNativeTarget "CardGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				ADDB02A91BA132B500A22F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
